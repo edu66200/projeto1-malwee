@@ -1,13 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Navbar } from "./components/navbar/navbar"
-import { About } from "./pages/about"
-import { Cadastro } from "./pages/cadastro"
-import { Carrinho } from "./pages/carrinho"
+import { About } from "./pages/about/about"
 import  {Home}  from "./pages/home/home"
 import { Shop } from "./pages/shop/shop"
-import { Login } from "./pages/login";
 import './reset/reset.css';
-import { Contato } from "./pages/contato";
+import { Contato } from "./pages/contato/contato";
 import './global.css'
 import  { Footer } from "./components/footer/footer"
 
@@ -18,11 +15,8 @@ export function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/carrinho" element={<Carrinho />} />
-        <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />
-        <Route path="/login" element={<Login />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/footer" element={<Footer  />} />
       </Routes>
