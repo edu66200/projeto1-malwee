@@ -20,15 +20,15 @@ export function Home () {
             </div>
             <div className={style.retangulo3}>
                     <div>
-                        <img className={style.imagem} src="src/img/Mask Group.svg"/>
+                        <img className={style.imagem} src="src/assets/img/Mask Group.svg"/>
                         <h1 className={style.texto2}>Dining</h1>
                     </div>
                     <div>
-                        <img className={style.imagem} src="src/img/foto-home-venda2.svg"/>
+                        <img className={style.imagem} src="src/assets/img/foto-home-venda2.svg"/>
                         <h1 className={style.texto2}>Living</h1>
                     </div>
                     <div>
-                        <img className={style.imagem} src="src/img/foto-home-venda3.svg"/>
+                        <img className={style.imagem} src="src/assets/img/foto-home-venda3.svg"/>
                         <h1 className={style.texto2}>Bedroom</h1>
                     </div>
             </div>
@@ -36,7 +36,7 @@ export function Home () {
                 
             <div className={style.retangulo4}>
                 <div className={style.retangulo5}>
-                        <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                        <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Backpack</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -45,7 +45,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Weapon</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -54,7 +54,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Barret 566.</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -63,7 +63,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Car off Nascar</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -74,7 +74,7 @@ export function Home () {
             </div>
             <div className={style.retangulo4}>
                 <div className={style.retangulo5}>
-                        <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                        <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Tshirt</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -83,7 +83,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Pump</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -92,7 +92,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Closset</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -101,7 +101,7 @@ export function Home () {
 
                 </div>
                 <div className={style.retangulo5}>
-                <img className={style.imagem2} src="src/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
+                <img className={style.imagem2} src="src/assets/img/4bdba3a6bef9d68df2d9a06e32e96c61.png"/>
                         <div className={style.space}>
                             <h1 className={style.texto3}>Bedroom</h1>
                             <h3 className={style.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>

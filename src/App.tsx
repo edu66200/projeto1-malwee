@@ -3,9 +3,9 @@ import { Navbar } from "./components/navbar/navbar"
 import { About } from "./pages/about/about"
 import  {Home}  from "./pages/home/home"
 import { Shop } from "./pages/shop/shop"
-import './reset/reset.css';
+import '../src/style/reset.css';
 import { Contato } from "./pages/contato/contato";
-import './global.css'
+import '../src/style/global.css'
 import  { Footer } from "./components/footer/footer"
 
 export function App() {

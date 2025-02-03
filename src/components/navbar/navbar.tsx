@@ -6,7 +6,7 @@ export function Navbar () {
     return(
         <nav>
             <div className={style.principal}>               
-                <img src="src/img/Frame 168.svg" alt="Logo" />
+                <img src="src/assets/img/Frame 168.svg" alt="Logo" />
                 <ul className={style.nav}>
                     <li className={style.escrita}><Link to="/">Home</Link></li>
                     <li className={style.escrita}><Link to="/shop">Shop</Link></li>
@@ -17,22 +17,22 @@ export function Navbar () {
                     
                     <li>
                         <Link to="/carrinho">
-                            <img src='src/img/ant-design_shopping-cart-outlined.svg'></img>
+                            <img src='src/assets/img/ant-design_shopping-cart-outlined.svg'></img>
                         </Link>
                     </li>
                     <li>
                         <Link to="/carrinho">
-                            <img src='src/img/ant-design_shopping-cart-outlined.svg'></img>
+                            <img src='src/assets/img/ant-design_shopping-cart-outlined.svg'></img>
                         </Link>
                     </li>
                     <li>
                         <Link to="/carrinho">
-                            <img src='src/img/ant-design_shopping-cart-outlined.svg'></img>
+                            <img src='src/assets/img/ant-design_shopping-cart-outlined.svg'></img>
                         </Link>
                     </li>
                     <li>
                         <Link to="/carrinho">
-                            <img src='src/img/ant-design_shopping-cart-outlined.svg'></img>
+                            <img src='src/assets/img/ant-design_shopping-cart-outlined.svg'></img>
                         </Link>
                     </li>
                 </ul>
