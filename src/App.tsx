@@ -3,11 +3,13 @@ import { Navbar } from "./components/navbar/navbar"
 import { About } from "./pages/about"
 import { Cadastro } from "./pages/cadastro"
 import { Carrinho } from "./pages/carrinho"
-import { Home } from "./pages/home/home"
-import { Shop } from "./pages/shop"
+import  {Home}  from "./pages/home/home"
+import { Shop } from "./pages/shop/shop"
 import { Login } from "./pages/login";
 import './reset/reset.css';
 import { Contato } from "./pages/contato";
+import './global.css'
+import  { Footer } from "./components/footer/footer"
 
 export function App() {
 
@@ -22,6 +24,7 @@ export function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/footer" element={<Footer  />} />
       </Routes>
     </Router>
   );
