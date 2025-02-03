@@ -1,5 +1,4 @@
 import style from './home.module.css'
-import { Link } from 'react-router-dom';
 import { Footer } from '../../components/footer/footer';
 
 export function Home () {
